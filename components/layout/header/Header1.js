@@ -14,7 +14,7 @@ export default function Header1({
         <>
 
             <header>
-                <div className="header-top-section fix">
+                {/* <div className="header-top-section fix">
                     <div className="container-fluid">
                         <div className="header-top-wrapper">
                             <ul className="contact-list">
@@ -38,7 +38,7 @@ export default function Header1({
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div id="header-sticky" className={`header-1 ${scroll ? "sticky" : ""}`}>
                     <div className="container-fluid">
                         <div className="mega-menu-wrapper">

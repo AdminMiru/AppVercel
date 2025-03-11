@@ -6,9 +6,9 @@ export default function Hero1() {
     return (
         <>
             <section className="hero-section fix hero-1 bg-cover" style={{ backgroundImage: 'url("assets/img/hero/hero-bg.jpg")' }}>
-                <div className="text-transparent">
+                {/* <div className="text-transparent">
                     <h2>Technology</h2>
-                </div>
+                </div> */}
                 <div className="line-shape">
                     <img src="/assets/img/hero/line-shape.png" alt="shape-img" />
                 </div>
@@ -25,17 +25,17 @@ export default function Hero1() {
                     <div className="row g-4 align-items-center">
                         <div className="col-lg-8">
                             <div className="hero-content">
-                                <h6 className="wow fadeInUp" data-wow-delay=".2s">Best it SOULTION Provider</h6>
+                                <h6 className="wow fadeInUp" data-wow-delay=".2s">Oportunidades de desarrollo inmobiliario</h6>
                                 <h1 className="wow fadeInUp" data-wow-delay=".4s">
-                                    Excellent It Services
-                                    for Your Success
+                                    Optimiza tu Inversión con IA:
+                                    el mejor proyecto en la ubicación ideal
                                 </h1>
                                 <p className="wow fadeInUp" data-wow-delay=".6s">
-                                    Consectetur adipiscing elit aenean scelerisque at augue vitae consequat <br /> quisque eget congue velit in cursus leo sed sodales est eget turpis.
+                                Accede a información precisa y actualizada mediante análisis de datos y machine learning, eliminando la incertidumbre. Realiza comparativas detalladas para tomar decisiones más rápidas, informadas y rentables.
                                 </p>
                                 <div className="hero-button">
                                     <Link href="/about" className="theme-btn wow fadeInUp" data-wow-delay=".8s">
-                                        Explore More
+                                        Descubre como funciona
                                         <i className="fa-solid fa-arrow-right-long" />
                                     </Link>
                                     <VideoPopup style={3} />
