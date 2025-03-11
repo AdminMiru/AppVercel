@@ -1,11 +1,10 @@
-import Link from "next/link"
+import Link from 'next/link';
 
 export default function Footer1() {
-    return (
-        <>
-
-            <footer className="footer-section">
-                <div className="footer-widgets-wrapper footer-bg">
+  return (
+    <>
+      <footer className="footer-section">
+        {/* <div className="footer-widgets-wrapper footer-bg">
                     <div className="shape-1">
                         <img src="/assets/img/footer-shape-1.png" alt="shape-img" />
                     </div>
@@ -151,33 +150,29 @@ export default function Footer1() {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="footer-bottom">
-                    <div className="container">
-                        <div className="footer-wrapper d-flex align-items-center justify-content-between">
-                            <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
-                                © All Copyright {new Date().getFullYear()} by <Link href="/">Infotech</Link>
-                            </p>
-                            <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
-                                <li>
-                                    <Link href="/contact">
-                                        Terms &amp; Condition
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/contact">
-                                        Privacy Policy
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <Link href="#" id="scrollUp" className="scroll-icon">
-                        <i className="far fa-arrow-up" />
-                    </Link>
-                </div>
-            </footer>
-
-        </>
-    )
+                </div> */}
+        <div className="footer-bottom">
+          <div className="container">
+            <div className="footer-wrapper d-flex align-items-center justify-content-between">
+              <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
+                © All Copyright {new Date().getFullYear()} by{' '}
+                <Link href="/">Miru</Link>
+              </p>
+              <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
+                <li>
+                  <Link href="/contact">Términos y Condiciones</Link>
+                </li>
+                <li>
+                  <Link href="/contact">Política de Privacidad</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <Link href="#" id="scrollUp" className="scroll-icon">
+            <i className="far fa-arrow-up" />
+          </Link>
+        </div>
+      </footer>
+    </>
+  );
 }

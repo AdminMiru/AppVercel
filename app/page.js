@@ -2,6 +2,7 @@ import Layout from '@/components/layout/Layout';
 import About3 from '@/components/sections/About3';
 import Achievement1 from '@/components/sections/Achievement1';
 import Brand1 from '@/components/sections/Brand1';
+import Contact1 from '@/components/sections/Contact1';
 import Cta1 from '@/components/sections/Cta1';
 import Faq1 from '@/components/sections/Faq1';
 import Hero1 from '@/components/sections/Hero1';
@@ -23,14 +24,15 @@ export default function Home() {
         {/* <Brand1 /> */}
         <Service1 />
         <Achievement1 />
-        <Project1 />
-        <Marque2 />
-        <Testimonial1 />
+        {/* <Project1 /> */}
+        {/* <Marque2 /> */}
+        {/* <Testimonial1 /> */}
         <Team1 />
-        <Pricing1 />
-        <Faq1 />
-        <News1 />
-        <Cta1 />
+        {/* <Pricing1 /> */}
+        {/* <Faq1 /> */}
+        {/* <News1 /> */}
+        {/* <Cta1 /> */}
+        <Contact1 />
       </Layout>
     </>
   );
