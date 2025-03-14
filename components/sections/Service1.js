@@ -48,7 +48,7 @@ export default function Service1() {
           <div className="section-title-area">
             <div className="section-title">
               {/* <span className="wow fadeInUp">IT services</span> */}
-              <h2 className="wow fadeInUp" data-wow-delay=".3s">
+              <h2 className="wow fadeInUp normalize-font" data-wow-delay=".3s">
                 Soluciona tus desafios inmobiliarios <br /> con tecnología de
                 vanguardia
               </h2>
@@ -128,7 +128,7 @@ export default function Service1() {
                     <div className="content">
                       <h4>
                         <Link href="/service-details">
-                          Menos riesgos, más certeza
+                          Menor riesgo, más certeza
                         </Link>
                       </h4>
                       <p>
