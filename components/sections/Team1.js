@@ -35,7 +35,7 @@ export default function Team1() {
     <>
       <section
         className="team-section section-padding pt-0 section-bg-2 bg-[#18185E]"
-        id="team"
+        id="process"
       >
         <div className="line-shape">
           <img src="/assets/img/team/line-shape.png" alt="shape-img" />
