@@ -48,7 +48,7 @@ export default function Team1() {
             <div className="section-title">
               <span className="text-white wow fadeInUp"></span>
               <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-                ¿Cómo es nuestro proceso?
+                Nuestro Proceso
               </h2>
             </div>
           </div>

@@ -7,7 +7,7 @@ export default function Achievement1() {
         <div className="container">
           <div className="achievement-wrapper">
             <div className="section-title mb-0">
-              <span className="text-white wow fadeInUp">DATOS</span>
+              <span className="text-white wow fadeInUp">NUESTROS DATOS</span>
               <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
                 Tu inversión respaldada <br /> por datos confiables
               </h2>
@@ -22,9 +22,9 @@ export default function Achievement1() {
                 </div>
                 <div className="content">
                   <h2>
-                    <CounterUp count={6561} />+
+                    <CounterUp count={20} />+
                   </h2>
-                  <p>Satisfied Clients</p>
+                  <p>Fuentes de información</p>
                 </div>
               </div>
               <div className="counter-items wow fadeInUp" data-wow-delay=".5s">
@@ -36,9 +36,9 @@ export default function Achievement1() {
                 </div>
                 <div className="content">
                   <h2>
-                    <CounterUp count={600} />+
+                    <CounterUp count={80} />+
                   </h2>
-                  <p>Finished Projects</p>
+                  <p>Bases de datos</p>
                 </div>
               </div>
               <div className="counter-items wow fadeInUp" data-wow-delay=".7s">
@@ -50,9 +50,9 @@ export default function Achievement1() {
                 </div>
                 <div className="content">
                   <h2>
-                    <CounterUp count={250} />+
+                    <CounterUp count={700} />+
                   </h2>
-                  <p>Skilled Experts</p>
+                  <p>Variables</p>
                 </div>
               </div>
               <div className="counter-items wow fadeInUp" data-wow-delay=".9s">
@@ -64,9 +64,9 @@ export default function Achievement1() {
                 </div>
                 <div className="content">
                   <h2>
-                    <CounterUp count={590} />+
+                    <CounterUp count={3000000} />+
                   </h2>
-                  <p>Media Posts</p>
+                  <p>Datos</p>
                 </div>
               </div>
             </div>

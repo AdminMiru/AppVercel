@@ -28,11 +28,9 @@ export default function Contact1() {
               <div className="col-lg-6">
                 <div className="contact-content">
                   <div className="section-title">
-                    <h2 className="text-white wow fadeInUp">
-                      ¡Platica con nosotros!
-                    </h2>
+                    <h2 className="text-white wow fadeInUp">¡Contáctanos!</h2>
                     <h6
-                      className="text-white wow fadeInUp"
+                      className="text-white wow fadeInUp normalize-font"
                       data-wow-delay=".3s"
                     >
                       Si necesitas resolver alguna duda o estás interesado en

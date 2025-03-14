@@ -30,36 +30,44 @@ export default function About3() {
                 <div className="about-content">
                   <div className="section-title">
                     <span className="wow fadeInUp">Acerca de nosotros</span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                    <h2
+                      className="wow fadeInUp normalize-font"
+                      data-wow-delay=".3s"
+                    >
                       Convierte datos en decisiones inteligentes con IA para el{' '}
                       <br />
-                      <span>desarrollo inmobiliario.</span>
+                      <span className="text-uppercase">
+                        desarrollo inmobiliario.
+                      </span>
                     </h2>
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    Miru analiza miles de datos del mercado en segundos, con el
-                    uso de machine learning para identificar la mejor vocación
-                    de un terreno y estimar su rentabilidad. Optimiza tu
-                    inversión con información precisa, comparativos estratégicos
-                    y proyecciones confiables.
+                    Mirū analiza millones de datos de las ciudades con el uso de
+                    machine learning para identificar las mejores ubicaciones
+                    para el desarrollo inmobiliario y la mejor vocación de
+                    predio de cada terreno.
                   </p>
                   <div className="icon-area wow fadeInUp" data-wow-delay=".7s">
                     <ul className="list">
                       <li>
                         <i className="fa-solid fa-check" />
-                        Definición precisa de vocación
+                        Estimación paramétrica de rentabilidad
                       </li>
                       <li>
                         <i className="fa-solid fa-check" />
-                        Análisis comparativo avanzado
+                        Estimación de precios de oferta
                       </li>
                       <li>
                         <i className="fa-solid fa-check" />
-                        Proyecciones financieras inteligentes
+                        Estimación de probabilidad de Uso de Suelo
                       </li>
                       <li>
                         <i className="fa-solid fa-check" />
-                        Decisiones basadas en IA
+                        Estimacion de expectativa de vivienda por zona
+                      </li>
+                      <li>
+                        <i className="fa-solid fa-check" />
+                        Análisis comparativo avanzado por zona
                       </li>
                     </ul>
                     {/* <div className="icon-items"> */}
