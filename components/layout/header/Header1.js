@@ -1,20 +1,19 @@
-import Link from "next/link"
-import Menu from "../Menu"
-import OnePageNav from "../OnePageNav"
+import Link from 'next/link';
+import Menu from '../Menu';
+import OnePageNav from '../OnePageNav';
 
 export default function Header1({
-    scroll,
-    isOffCanvas,
-    handleOffCanvas,
-    isSearch,
-    handleSearch,
-    onePageNav
+  scroll,
+  isOffCanvas,
+  handleOffCanvas,
+  isSearch,
+  handleSearch,
+  onePageNav,
 }) {
-    return (
-        <>
-
-            <header>
-                {/* <div className="header-top-section fix">
+  return (
+    <>
+      <header>
+        {/* <div className="header-top-section fix">
                     <div className="container-fluid">
                         <div className="header-top-wrapper">
                             <ul className="contact-list">
@@ -39,30 +38,32 @@ export default function Header1({
                         </div>
                     </div>
                 </div> */}
-                <div id="header-sticky" className={`header-1 ${scroll ? "sticky" : ""}`}>
-                    <div className="container-fluid">
-                        <div className="mega-menu-wrapper">
-                            <div className="header-main style-2">
-                                <div className="header-left">
-                                    <div className="logo">
-                                        <Link href="/" className="header-logo">
-                                            <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
-                                        </Link>
-                                    </div>
-                                </div>
-                                <div className="header-right d-flex justify-content-end align-items-center">
-                                    <div className="mean__menu-wrapper">
-                                        <div className="main-menu">
-                                            <nav id="mobile-menu">
-                                                {onePageNav ?
-                                                    <OnePageNav />
-                                                    :
-                                                    <Menu />
-                                                }
-                                            </nav>
-                                        </div>
-                                    </div>
-                                    <a onClick={handleSearch} className="search-trigger search-icon"><i className="fal fa-search" /></a>
+        <div
+          id="header-sticky"
+          className={`header-1 ${scroll ? 'sticky' : ''}`}
+        >
+          <div className="container-fluid">
+            <div className="mega-menu-wrapper">
+              <div className="header-main style-2">
+                <div className="header-left">
+                  <div className="logo w-100">
+                    <Link href="/" className="header-logo w-100">
+                      <img
+                        src="/assets/img/logo/LogoMirúV2.png"
+                        alt="logo-img"
+                      />
+                    </Link>
+                  </div>
+                </div>
+                <div className="header-right d-flex justify-content-end align-items-center">
+                  <div className="mean__menu-wrapper">
+                    <div className="main-menu">
+                      <nav id="mobile-menu">
+                        {onePageNav ? <OnePageNav /> : <Menu />}
+                      </nav>
+                    </div>
+                  </div>
+                  {/* <a onClick={handleSearch} className="search-trigger search-icon"><i className="fal fa-search" /></a>
                                     <div className="header-button">
                                         <Link href="/contact" className="theme-btn">
                                             <span>
@@ -75,13 +76,13 @@ export default function Header1({
                                         <div className="sidebar__toggle" onClick={handleOffCanvas}>
                                             <i className="fas fa-bars" />
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                    </div> */}
                 </div>
-            </header>
-        </>
-    )
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </>
+  );
 }

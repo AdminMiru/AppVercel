@@ -57,10 +57,10 @@ export default function Team1() {
               className="team-items bor-top bor-bottom wow fadeInUp"
               data-wow-delay=".3s"
             >
-              <div className="team-title">
+              <div className="team-title normalize-font">
                 {/* <span>Scrum Master</span> */}
                 <h4>
-                  <Link href="/team-details">Briefing y propuesta</Link>
+                  <Link href="#">Briefing y Propuesta</Link>
                 </h4>
               </div>
               <p className="text-white">

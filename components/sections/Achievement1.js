@@ -8,7 +8,10 @@ export default function Achievement1() {
           <div className="achievement-wrapper">
             <div className="section-title mb-0">
               <span className="text-white wow fadeInUp">NUESTROS DATOS</span>
-              <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
+              <h2
+                className="text-white wow fadeInUp normalize-font"
+                data-wow-delay=".3s"
+              >
                 Tu inversión respaldada <br /> por datos confiables
               </h2>
             </div>
