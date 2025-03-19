@@ -81,7 +81,7 @@ export default function Menu() {
           </ul> */}
         </li>
         <li>
-          <Link href="/#about">About</Link>
+          <Link href="/#about">Conócenos</Link>
         </li>
         <li>
           <Link href="/#process">

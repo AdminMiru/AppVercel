@@ -156,7 +156,7 @@ export default function Footer1() {
             <div className="footer-wrapper d-flex align-items-center justify-content-between">
               <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
                 © All Copyright {new Date().getFullYear()} by{' '}
-                <Link href="/">Miru</Link>
+                <Link href="/">Mirū</Link>
               </p>
               <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
                 <li>

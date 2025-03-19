@@ -44,7 +44,9 @@ export default function About1() {
                     <span className="wow fadeInUp">Acerca de nosotros</span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
                       Convierte datos en decisiones inteligentes con IA para el{' '}
-                      <span>desarrollo inmobiliario.</span>
+                      <span className="capitalize">
+                        desarrollo inmobiliario.
+                      </span>
                     </h2>
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">

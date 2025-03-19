@@ -31,7 +31,7 @@ export default function Hero1() {
                   Oportunidades de desarrollo inmobiliario
                 </h6>
                 <h1 className="wow fadeInUp" data-wow-delay=".4s">
-                  Optimiza tu Inversión con IA: él mejor proyecto en la
+                  Optimiza tu inversión con IA: el mejor proyecto en la
                   ubicación ideal
                 </h1>
                 <p className="wow fadeInUp" data-wow-delay=".6s">
@@ -57,7 +57,7 @@ export default function Hero1() {
             </div>
             <div className="col-lg-4">
               <div className="hero-image wow fadeInUp" data-wow-delay=".4s">
-                <img src="/assets/img/hero/hero.png" alt="hero-img" />
+                <img src="/assets/img/hero-small.jpeg" alt="hero-img" />
               </div>
             </div>
           </div>
