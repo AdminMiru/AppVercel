@@ -3126,6 +3126,7 @@ span {
 @media (max-width: 1899px) {
   .header-2 .header-main .logo {
     display: block !important;
+    width: 159px;
   }
 }
 @media screen and (max-width: 1025px) {
@@ -3369,6 +3370,7 @@ span {
 }
 .sticky.header-2 .header-main .logo {
   display: block !important;
+width: 159px;
 }
 .sticky.header-3::before {
   display: none !important;
@@ -7800,4 +7802,8 @@ html {
 
 .normalize-font {
   text-transform: none;
+}
+
+.logo-width {
+  width: 159px;
 }

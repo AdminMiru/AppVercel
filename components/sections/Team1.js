@@ -59,8 +59,8 @@ export default function Team1() {
             >
               <div className="team-title normalize-font">
                 {/* <span>Scrum Master</span> */}
-                <h4>
-                  <Link href="#">Briefing y Propuesta</Link>
+                <h4 className="text-white">
+                  Briefing y Propuesta
                 </h4>
               </div>
               <p className="text-white">
@@ -73,8 +73,8 @@ export default function Team1() {
               data-wow-delay=".5s"
             >
               <div className="team-title">
-                <h4>
-                  <Link href="/team-details">Análisis</Link>
+                <h4 className="text-white">
+                  Análisis
                 </h4>
               </div>
               <p className="text-white">
@@ -87,8 +87,8 @@ export default function Team1() {
               data-wow-delay=".7s"
             >
               <div className="team-title">
-                <h4>
-                  <Link href="/team-details">Entrega de resultados</Link>
+                <h4 className='text-white'>
+                  Entrega de resultados
                 </h4>
               </div>
               <p className="text-white">
@@ -101,10 +101,9 @@ export default function Team1() {
               data-wow-delay=".9s"
             >
               <div className="team-title">
-                <h4>
-                  <Link href="/team-details">
+                <h4 className='text-white'>
+
                     Acompañamiento y actualización
-                  </Link>
                 </h4>
               </div>
               <p className="text-white">
