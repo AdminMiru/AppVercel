@@ -160,10 +160,10 @@ export default function Footer1() {
               </p>
               <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
                 <li>
-                  <Link href="/contact">Términos y Condiciones</Link>
+                  <a href="/Términos y condiciones.pdf" target="_blank" rel="noopener noreferrer">Términos y Condiciones</a>
                 </li>
                 <li>
-                  <Link href="/contact">Política de Privacidad</Link>
+                  <a href="/Aviso de privacidad.pdf" target="_blank" rel="noopener noreferrer">Política de Privacidad</a>
                 </li>
               </ul>
             </div>
