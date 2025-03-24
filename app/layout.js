@@ -11,6 +11,8 @@ import '/public/assets/css/nice-select.css';
 import '/public/assets/css/main.css';
 
 import { Kumbh_Sans } from 'next/font/google';
+import Script from 'next/script';
+import ClarityScript from '../components/ClarityScript';
 
 const kumbh = Kumbh_Sans({
   weight: ['300', '400', '500', '600', '700', '800', '900'],
@@ -26,7 +28,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${kumbh.className}`}>{children}</body>
+      <body className={`${kumbh.className}`}>
+        <ClarityScript />
+        {children}
+      </body>
     </html>
   );
 }

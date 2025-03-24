@@ -36,7 +36,7 @@ export default function About3() {
                     >
                       Convierte datos en decisiones inteligentes con IA para el{' '}
                       <br />
-                      <span className="text-uppercase">
+                      <span className="text-capitalize">
                         desarrollo inmobiliario.
                       </span>
                     </h2>

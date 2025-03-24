@@ -46,11 +46,12 @@ export default function Header1({
             <div className="mega-menu-wrapper">
               <div className="header-main style-2">
                 <div className="header-left">
-                  <div className="logo w-100">
-                    <Link href="/" className="header-logo w-100">
+                  <div className="logo w-4">
+                    <Link href="/" className="header-logo w-4">
                       <img
                         src="/assets/img/logo/LogoMirúV2.png"
                         alt="logo-img"
+                        className='logo-width'
                       />
                     </Link>
                   </div>
