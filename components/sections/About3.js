@@ -14,16 +14,16 @@ export default function About3() {
             <div className="row">
               <div className="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
                 <div className="about-image">
-                  <div className="shape-image">
+                  {/* <div className="shape-image">
                     <img src="/assets/img/about/shape.png" alt="shape-img" />
                   </div>
                   <div className="circle-shape">
                     <img src="/assets/img/about/circle.png" alt="shape-img" />
-                  </div>
-                  <img src="/assets/img/about/05.png" alt="about-img" />
-                  <div className="video-box">
+                  </div> */}
+                  <img src="/assets/img/about-us.jpg" alt="about-img" />
+                  {/* <div className="video-box">
                     <VideoPopup style={1} />
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-6 mt-4 mt-lg-0">
