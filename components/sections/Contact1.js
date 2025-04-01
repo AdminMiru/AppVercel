@@ -9,10 +9,10 @@ export default function Contact1() {
     job: '',
     email: '',
     phone: '',
-    message: '',
-    option1: false,
-    option2: false,
-    option3: false
+    state: '',
+    newsletter: false,
+    information: false,
+    reports: false
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState({ type: '', message: '' });
@@ -32,7 +32,7 @@ export default function Contact1() {
 
     try {
       // Validate form
-      if (!formData.name || !formData.job || !formData.email || !formData.phone || !formData.message) {
+      if (!formData.name || !formData.job || !formData.email || !formData.phone || !formData.state) {
         throw new Error('Por favor completa todos los campos requeridos.');
       }
 
@@ -54,10 +54,10 @@ export default function Contact1() {
         job: '',
         email: '',
         phone: '',
-        message: '',
-        option1: false,
-        option2: false,
-        option3: false
+        state: '',
+        newsletter: false,
+        information: false,
+        reports: false
       });
 
       setSubmitStatus({
@@ -163,12 +163,13 @@ export default function Contact1() {
                       </div>
                       <div className="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
                         <div className="form-clt">
-                          <span>Mensaje*</span>
-                          <textarea
-                            name="message"
-                            id="message"
-                            placeholder="Escribe tu mensaje"
-                            value={formData.message}
+                          <span>Estado de la republica*</span>
+                          <input
+                            type="text"
+                            name="state"
+                            id="state"
+                            placeholder="Ej. Sonora"
+                            value={formData.state}
                             onChange={handleChange}
                           />
                         </div>
@@ -177,36 +178,39 @@ export default function Contact1() {
                       <div className="col-lg-12 wow fadeInUp" data-wow-delay=".8s">
                         <div className="form-clt">
                           <span>Selecciona una o más opciones</span>
-                          <div style={{ display: "flex", gap: "1rem", marginTop: "0.5rem" }}>
-                            <label style={{ display: "flex", alignItems: "center", gap: "0.3rem" }}>
+                          <div style={{ display: "flex",flexDirection: "column", gap: "1rem", marginTop: "0.5rem" }}>
+                            <label style={{ display: "flex", alignItems: "center", gap: "0.3rem", flex: 1, color: "#FFF" }}>
                               <input
                                 type="checkbox"
-                                name="option1"
-                                value="option1"
-                                checked={formData.option1}
+                                name="newsletter"
+                                value="newsletter"
+                                checked={formData.newsletter}
                                 onChange={handleChange}
+                                style={{ width: "28px"}}
                               />
-                              Opción 1
+                              Suscribirme al newsletter
                             </label>
-                            <label style={{ display: "flex", alignItems: "center", gap: "0.3rem" }}>
+                            <label style={{ display: "flex", alignItems: "center", gap: "0.3rem", flex: 1, color: "#FFF" }}>
                               <input
                                 type="checkbox"
-                                name="option2"
-                                value="option2"
-                                checked={formData.option2}
+                                name="information"
+                                value="information"
+                                checked={formData.information}
                                 onChange={handleChange}
+                                style={{ width: "28px"}}
                               />
-                              Opción 2
+                              Obtener información o solicitar un documento de recomendaciones de desarrollo
                             </label>
-                            <label style={{ display: "flex", alignItems: "center", gap: "0.3rem" }}>
+                            <label style={{ display: "flex", alignItems: "center", gap: "0.3rem", flex: 1, color: "#FFF" }}>
                               <input
                                 type="checkbox"
-                                name="option3"
-                                value="option3"
-                                checked={formData.option3}
+                                name="reports"
+                                value="reports"
+                                checked={formData.reports}
                                 onChange={handleChange}
+                                style={{ width: "28px"}}
                               />
-                              Opción 3
+                              Acceder a reportes inmediatos sobre un predio con solo las coordenadas
                             </label>
                           </div>
                         </div>

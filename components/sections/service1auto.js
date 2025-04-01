@@ -65,7 +65,7 @@ export default function Service1() {
           <div className="service-wrapper">
             <div className="swiper service-slider">
               <Swiper {...swiperOptions} className="swiper-wrapper">
-                <SwiperSlide >
+                <SwiperSlide>
                   <div className="service-box-items">
                     <div className="icon">
                       <img
@@ -92,7 +92,7 @@ export default function Service1() {
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide >
+                <SwiperSlide>
                   <div className="service-box-items">
                     <div className="icon">
                       <img
@@ -118,7 +118,7 @@ export default function Service1() {
                     </div>
                   </div>
                 </SwiperSlide>
-                <SwiperSlide >
+                <SwiperSlide>
                   <div className="service-box-items">
                     <div className="icon">
                       <img
@@ -195,7 +195,7 @@ export default function Service1() {
                       {/* <Link
                         href="/service-details"
                         className="theme-btn-2 mt-3"
-                      >
+                      > 
                         read More
                         <i className="fa-solid fa-arrow-right-long" />
                       </Link> */}
