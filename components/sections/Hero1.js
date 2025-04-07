@@ -6,7 +6,7 @@ export default function Hero1() {
     <>
       <section
         className="hero-section fix hero-1 bg-cover"
-        style={{ backgroundImage: 'url("assets/img/hero/hero-bg-3.jpg")' }}
+        style={{ backgroundImage: 'url("assets/img/hero/hero-bg-4.jpg")' }}
       >
         {/* <div className="text-transparent">
                     <h2>Technology</h2>
@@ -19,22 +19,26 @@ export default function Hero1() {
         </div>
         <div className="frame-shape">
           <img src="/assets/img/hero/frame.png" alt="shape-img" />
-        </div>
-        <div className="mask-shape wow fadeInRight" data-wow-delay=".7s">
-          <img src="/assets/img/hero/mask-shape.png" alt="shape-img" />
         </div> */}
+        <div className="mask-shape wow fadeInRight" data-wow-delay=".7s">
+          <img src="/assets/img/hero/hero-img-2.png" alt="shape-img" />
+        </div>
         <div className="container">
           <div className="row g-4 align-items-center">
             <div className="col-lg-8">
               <div className="hero-content">
-                <h6 className="wow fadeInUp" data-wow-delay=".2s" style={{ color: 'black' }}>
+                <h6
+                  className="wow fadeInUp"
+                  data-wow-delay=".2s"
+                  style={{ color: 'black' }}
+                >
                   Oportunidades de desarrollo inmobiliario
                 </h6>
-                <h1 className="wow fadeInUp" data-wow-delay=".4s" >
+                <h1 className="wow fadeInUp" data-wow-delay=".4s">
                   Optimiza tu inversión con IA: el mejor proyecto en la
                   ubicación ideal
                 </h1>
-                <p className="wow fadeInUp" data-wow-delay=".6s" >
+                <p className="wow fadeInUp" data-wow-delay=".6s">
                   Toma decisiones más rápidas, informadas, rentables y
                   confiables sobre tu proyecto inmobiliario. Utilizamos
                   información precisa y actualizada para analizarla mediante
@@ -44,14 +48,14 @@ export default function Hero1() {
                 </p>
                 <div className="hero-button">
                   <Link
-                    href="/about"
+                    href=""
                     className="theme-btn wow fadeInUp"
                     data-wow-delay=".8s"
                   >
                     Descubre como funciona
                     <i className="fa-solid fa-arrow-right-long" />
                   </Link>
-                  <VideoPopup style={3} />
+                  {/* <VideoPopup style={3} /> */}
                 </div>
               </div>
             </div>
