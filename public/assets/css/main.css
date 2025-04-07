@@ -7807,3 +7807,19 @@ html {
 .logo-width {
   width: 159px;
 }
+
+.icon > img {
+  width: 36px;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.swiper-wrapper {
+  height: auto; 
+}
+
+.service-box-items {
+  height: 100% !important;
+}

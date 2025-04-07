@@ -27,14 +27,14 @@ export default function Hero1() {
           <div className="row g-4 align-items-center">
             <div className="col-lg-8">
               <div className="hero-content">
-                <h6 className="wow fadeInUp" data-wow-delay=".2s">
+                <h6 className="wow fadeInUp" data-wow-delay=".2s" style={{ color: 'black' }}>
                   Oportunidades de desarrollo inmobiliario
                 </h6>
-                <h1 className="wow fadeInUp" data-wow-delay=".4s">
+                <h1 className="wow fadeInUp" data-wow-delay=".4s" >
                   Optimiza tu inversión con IA: el mejor proyecto en la
                   ubicación ideal
                 </h1>
-                <p className="wow fadeInUp" data-wow-delay=".6s">
+                <p className="wow fadeInUp" data-wow-delay=".6s" >
                   Toma decisiones más rápidas, informadas, rentables y
                   confiables sobre tu proyecto inmobiliario. Utilizamos
                   información precisa y actualizada para analizarla mediante
