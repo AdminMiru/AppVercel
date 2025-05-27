@@ -59,9 +59,7 @@ export default function Team1() {
             >
               <div className="team-title normalize-font">
                 {/* <span>Scrum Master</span> */}
-                <h4 className="text-white">
-                  Briefing y Propuesta
-                </h4>
+                <h4 className="text-white">Briefing y Propuesta</h4>
               </div>
               <p className="text-white">
                 Entendimiento de tus necesidades y expectativas para diseñar la
@@ -73,9 +71,7 @@ export default function Team1() {
               data-wow-delay=".5s"
             >
               <div className="team-title">
-                <h4 className="text-white">
-                  Análisis
-                </h4>
+                <h4 className="text-white">Análisis</h4>
               </div>
               <p className="text-white">
                 Recopilación, procesamiento y análisis avanzado con machine
@@ -87,13 +83,11 @@ export default function Team1() {
               data-wow-delay=".7s"
             >
               <div className="team-title">
-                <h4 className='text-white'>
-                  Entrega de resultados
-                </h4>
+                <h4 className="text-white">Entrega de resultados</h4>
               </div>
               <p className="text-white">
-                Presentación del reporte con al menos 3 opciones de terreno y/o
-                vocación alineadas a tus requerimientos.
+                Presentación del reporte con el mejor terreno y/o vocación
+                alineadas a tus requerimientos.
               </p>
             </div>
             <div
@@ -101,10 +95,7 @@ export default function Team1() {
               data-wow-delay=".9s"
             >
               <div className="team-title">
-                <h4 className='text-white'>
-
-                    Acompañamiento y actualización
-                </h4>
+                <h4 className="text-white">Acompañamiento y actualización</h4>
               </div>
               <p className="text-white">
                 Durante el primer año, asesoría continua y una actualización de

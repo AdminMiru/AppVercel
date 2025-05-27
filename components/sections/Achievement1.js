@@ -67,7 +67,7 @@ export default function Achievement1() {
                 </div>
                 <div className="content">
                   <h2>
-                    <CounterUp count={3000000} />+
+                    <CounterUp count={280000000} />+
                   </h2>
                   <p>Datos</p>
                 </div>

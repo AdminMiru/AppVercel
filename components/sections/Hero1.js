@@ -48,7 +48,7 @@ export default function Hero1() {
                 </p>
                 <div className="hero-button">
                   <Link
-                    href=""
+                    href="https://www.youtube.com/watch?v=fqxKL17AWJQ"
                     className="theme-btn wow fadeInUp"
                     data-wow-delay=".8s"
                   >
