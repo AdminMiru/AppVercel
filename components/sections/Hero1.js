@@ -51,6 +51,7 @@ export default function Hero1() {
                     href="https://www.youtube.com/watch?v=fqxKL17AWJQ"
                     className="theme-btn wow fadeInUp"
                     data-wow-delay=".8s"
+                    target="_blank"
                   >
                     Descubre como funciona
                     <i className="fa-solid fa-arrow-right-long" />
