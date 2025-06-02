@@ -1,1 +1,2 @@
-# infotek
+# AppVercel
+AppVercel for Miru/Modi website
