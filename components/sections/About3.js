@@ -111,7 +111,9 @@ export default function About3() {
                         <i className="fa-solid fa-phone" />
                       </div>
                       <div className="content">
+                        <Link href={"/#contact"}>
                         <span>!Contáctanos!</span>
+                        </Link>
                         {/* <h5>
                           <Link href="/tel:+2085550112">+208-555-0112</Link>
                         </h5> */}
